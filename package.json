@@ -1,0 +1,26 @@
+{
+  "name": "world-cyberattack-timeline-explorer",
+  "version": "1.0.0",
+  "description": "Interactive timeline of famous cyberattacks from 1988 to 2026",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000",
+    "serve": "npx http-server -c-1"
+  },
+  "keywords": [
+    "cyberattack",
+    "timeline",
+    "cybersecurity",
+    "visualization",
+    "interactive",
+    "education"
+  ],
+  "author": "chhotegthub",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
